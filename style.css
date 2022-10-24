@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background: rgb(41, 28, 28);
+}
+
+#containerCard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: solid 2px white;
+    display: flex;
+    height: 20rem;
+    width: 30rem;
+    margin: 2rem;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+}
+
+.cardImge{
+    height: 100%;
+    width: 50%;
+}
+
+.cardDescription{
+    height: 50%;
+    width: 50%;
+    color: white;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
